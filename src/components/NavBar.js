@@ -9,9 +9,7 @@ const NavBar = () => {
         <Link
           to="/"
           className={
-            window.location.pathname === "/"
-              ? "navbar-brand"
-              : "navbar-brand"
+            window.location.pathname === "/" ? "navbar-brand" : "navbar-brand"
           }
         >
           Gabe Quakkelaar
@@ -30,17 +28,10 @@ const NavBar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              {/* <a
-                class="nav-link active"
-                href="index.html"
-                title="Go to the Homepage"
-              >
-                Home
-              </a> */}
               <Link
-                to="/home"
+                to="/"
                 className={
-                  window.location.pathname === "/home"
+                  window.location.pathname === "/"
                     ? "nav-link active"
                     : "nav-link"
                 }
@@ -49,13 +40,6 @@ const NavBar = () => {
               </Link>
             </li>
             <li class="nav-item">
-              {/* <a
-                class="nav-link active"
-                href="about.html"
-                title="Go to the About page"
-              >
-                About
-              </a> */}
               <Link
                 to="/about"
                 className={
@@ -68,13 +52,6 @@ const NavBar = () => {
               </Link>
             </li>
             <li class="nav-item">
-              {/* <a
-                class="nav-link active"
-                href="contact.html"
-                title="Go to the Contact page"
-              >
-                Contact
-              </a> */}
               <Link
                 to="/contact"
                 className={
@@ -87,14 +64,6 @@ const NavBar = () => {
               </Link>
             </li>
             <li class="nav-item">
-              {/* <a
-                class="nav-link"
-                aria-current="page"
-                href="#"
-                title="Go to Gabe Quakkelaar's Portfolio"
-              >
-                Portfolio
-              </a> */}
               <Link
                 to="/portfolio"
                 className={

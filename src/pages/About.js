@@ -1,9 +1,9 @@
 import React from "react";
 
-
 const About = () => {
   return (
     <main className="flex-shrink-0">
+      <hr />
       <div className="container" id="about-me">
         <br />
         <div className="row">
@@ -22,6 +22,7 @@ const About = () => {
         </div>
         <div className="col-sm-2"></div>
       </div>
+      <hr />
     </main>
   );
 };

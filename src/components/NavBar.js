@@ -77,7 +77,7 @@ const NavBar = () => {
             </li>
           </ul>
           <a
-            href="./assets/uploads/Gabe Quakkelaar Resume.pdf"
+            href="./public/Gabe Quakkelaar Resume.pdf"
             target="blank"
             class="navbar-brand"
           >

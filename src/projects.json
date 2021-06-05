@@ -2,8 +2,7 @@
     {
         "id": 1,
         "name": "PupStop",
-        "image":
-          "images/pupstoplogo.png",
+        "image":"{`${process.env.PUBLIC_URL}/images/QFam.jpg`}",
         "description": "Host or rent a backyard for some puppy play time!",
         "deployed": "https://pupstopapp.herokuapp.com/",
         "repo": "https://github.com/GQuak/pupstop"
@@ -11,7 +10,7 @@
       {
         "id": 2,
         "name": "Who Said It?",
-        "image": "images/WhoSaidIt.gif",
+        "image":"{`${process.env.PUBLIC_URL}/images/QFam.jpg`}",
         "description": "Can you tell Who Said It? Donald Trump, Kanye West, or Ron Swanson?",
         "deployed": "https://justinwestmoreland.github.io/Who-Said-It/",
         "repo": "https://github.com/justinwestmoreland/Who-Said-It"
@@ -19,8 +18,7 @@
       {
         "id": 3,
         "name": "Weather Dashboard",
-        "image":
-          "images/06_WeatherDashboard.gif",
+        "image":"{`${process.env.PUBLIC_URL}/images/QFam.jpg`}",
         "description": "Schedule your work day to view previous and upcoming tasks.",
         "deployed": "https://gquak.github.io/06_WeatherDashboard/",
         "repo": "https://github.com/GQuak/06_WeatherDashboard"
@@ -28,8 +26,7 @@
       {
         "id": 4,
         "name": "Progressive Budget",
-        "image":
-          "images/team-builder.png",
+        "image":"{`${process.env.PUBLIC_URL}/images/QFam.jpg`}",
         "description": "Use the command line to build a visual team profile.",
         "deployed": "https://vast-atoll-07067.herokuapp.com/",
         "repo": "https://github.com/GQuak/18_BudgetTracker"
@@ -37,8 +34,7 @@
       {
         "id": 5,
         "name": "Workout Tracker",
-        "image":
-          "images/01-WeatherDashboard.png",
+        "image":"{`${process.env.PUBLIC_URL}/images/QFam.jpg`}",
         "description": "Check the current and 5-day forecast for your city.",
         "deployed": "https://lit-waters-77274.herokuapp.com/",
         "repo": "https://github.com/GQuak/17_WorkoutTracker"
@@ -46,8 +42,7 @@
       {
         "id": 6,
         "name": "Work Calendar",
-        "image":
-          "images/05_WorkCalendar.gif",
+        "image":"{`${process.env.PUBLIC_URL}/images/QFam.jpg`}",
         "description": "Use the command line to build a visual team profile.",
         "deployed": "https://gquak.github.io/05_WorkCalendar/",
         "repo": "https://github.com/GQuak/05_WorkCalendar"

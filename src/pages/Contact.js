@@ -4,10 +4,10 @@ const Contact = () => {
   return (
     <main className="flex-shrink-0">
       <hr />
-      <div className="container" id="contact-me">
+      <div className="container">
         <div className="row">
           <div className="col-sm-3"></div>
-          <div className="col-xs-12 col-sm-6">
+          <div className="col-xs-12 col-sm-6" id="contact-me">
             <header>
               <h1 className="header">Contact Me</h1>
             </header>

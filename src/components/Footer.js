@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer footerStyle">
+    <footer className="footer footerStyle">
       <p>
         {" "}
         <br></br>
@@ -28,7 +28,7 @@ const Footer = () => {
         </a>
       </p>
       <div>
-        <span class="text-muted">
+        <span className="text-muted">
           {" "}
           Gabe Quakkelaar | (616) 420-1427 | gabe.quakkelaar@gmail.com <br></br>
           &copy; Copyright 2021 Gabe Quakkelaar

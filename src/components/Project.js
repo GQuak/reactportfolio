@@ -37,8 +37,10 @@ function Project(props) {
                         <div className="col-6">
                           <a
                             href={project.deployed}
+                            target="_blank"
+                            rel="noreferrer"
                             className="btn btn-primary"
-                            id="btn-who-said-it"
+                            id="btn-see-app"
                           >
                             See the app
                           </a>
@@ -47,7 +49,7 @@ function Project(props) {
                           <a
                             href={project.repo}
                             className="btn btn-primary"
-                            id="btn-who-said-it"
+                            id="btn-see-repo"
                           >
                             View the repo
                           </a>

@@ -12,6 +12,24 @@ const Contact = () => {
               <h1 className="header">Contact Me</h1>
             </header>
             <hr />
+            <div className="card leftside">
+              <h4>If you'd like to learn more you can contact me here: </h4>
+              <ul>
+                <li>Email: gabe.quakkelaar@gmail.com</li>
+                <li>Phone: (616) 420-1427</li>
+                <li>
+                  Linkedin:{" "}
+                  <a
+                    href="https://www.linkedin.com/in/GQuak/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    linkedin.com/in/GQuak
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <hr />
             <iframe
               title="Contact form"
               src="https://docs.google.com/forms/d/e/1FAIpQLSeofR-s5r5ni_aYcK_SyX5UuLjTnk_amYOEdlu2IIwuimkPzg/viewform?embedded=true"

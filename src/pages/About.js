@@ -11,8 +11,13 @@ const About = () => {
           <div className="card col-xs-12 col-md-8" id="about-me">
             <div className="card-body">
               <h3 className="card-title">Who is Gabe Quakkelaar?</h3>
+              {/* <img
+                src="images/QFam.jpg"
+                className="card-img-top aboutImage"
+                alt="Gabe Quakkelaar's Family"
+              ></img> */}
               <img
-                src="/images/QFam.jpg"
+                src={`${process.env.PUBLIC_URL}/images/QFam.jpg`}
                 className="card-img-top aboutImage"
                 alt="Gabe Quakkelaar's Family"
               ></img>
